@@ -1,0 +1,35 @@
+$px-heading-size-giga   :  96px !default;
+$px-heading-size-mega   :  72px !default;
+$px-heading-size-kilo   :  40px !default;
+
+.alpha, .beta, .gamma {
+  text-transform: uppercase;
+}
+
+.alpha, .giga, .mega, .kilo {
+  font-family: "GE Inspira", sans-serif;
+}
+
+.alpha {
+  color: $true-black;
+}
+
+.beta, .gamma {
+  color: $black;
+}
+
+.giga {
+  @include inuit-font-size($px-heading-size-giga);
+}
+
+.mega {
+  @include inuit-font-size($px-heading-size-mega);
+}
+
+.kilo {
+  @include inuit-font-size($px-heading-size-kilo);
+  .fa {
+    @include inuit-font-size(18px);
+  }
+}
+
