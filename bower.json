@@ -20,5 +20,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "inuit-headings": "~0.2.2",
+    "px-defaults": "git://github.sw.ge.com/jrogerson/px-defaults.git#master",
+    "px-colors": "git://github.sw.ge.com/jrogerson/px-colors.git#master",
+    "px-typography": "git://github.sw.ge.com/jrogerson/px-typography.git#master"
+  }
 }
