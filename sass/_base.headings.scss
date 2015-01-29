@@ -1,7 +1,7 @@
-@import "lib/px-defaults/settings.defaults";
-@import "lib/px-colors/settings.colors";
+@import "lib/px-defaults/sass/settings.defaults";
+@import "lib/px-colors/sass/settings.colors";
 @import "lib/inuit-mixins/tools.mixins";
-@import "lib/px-typography/base.typography";
+@import "lib/px-typography/sass/base.typography";
 @import "lib/inuit-headings/base.headings";
 
 $px-heading-size-giga   :  96px !default;
