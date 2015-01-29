@@ -1,12 +1,12 @@
+$inuit-heading-size-1   : 32px;
+$inuit-heading-size-2   : 18px;
+$inuit-heading-size-3   : 16px;
+
 @import "lib/inuit-defaults/settings.defaults";
 @import "lib/px-colors/sass/settings.colors";
 @import "lib/px-mixins/sass/tools.mixins";
 @import "lib/px-typography/sass/base.typography";
 @import "lib/inuit-headings/base.headings";
-
-$inuit-heading-size-1   : 32px;
-$inuit-heading-size-2   : 18px;
-$inuit-heading-size-3   : 16px;
 
 $px-heading-size-giga   : 96px !default;
 $px-heading-size-mega   : 72px !default;
