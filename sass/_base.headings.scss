@@ -1,48 +1,7 @@
-$inuit-heading-size-1   : 32px;
-$inuit-heading-size-2   : 18px;
-$inuit-heading-size-3   : 16px;
+/*------------------------------------*\
+    #PX-HEADINGS
+\*------------------------------------*/
 
-@import "lib/inuit-defaults/settings.defaults";
-@import "lib/px-colors/sass/settings.colors";
-@import "lib/px-mixins/sass/tools.mixins";
-@import "lib/px-typography/sass/base.typography";
-@import "lib/inuit-headings/base.headings";
-
-$px-heading-size-giga   : 96px !default;
-$px-heading-size-mega   : 72px !default;
-$px-heading-size-kilo   : 40px !default;
-
-@if import-once('base.headings') {
-
-  .alpha, .beta, .gamma {
-    text-transform: uppercase;
-  }
-  
-  .alpha, .giga, .mega, .kilo {
-    font-family: "GE Inspira", sans-serif;
-  }
-  
-  .alpha {
-    color: $true-black;
-  }
-  
-  .beta, .gamma {
-    color: $black;
-  }
-  
-  .giga {
-    @include inuit-font-size($px-heading-size-giga);
-  }
-  
-  .mega {
-    @include inuit-font-size($px-heading-size-mega);
-  }
-  
-  .kilo {
-    @include inuit-font-size($px-heading-size-kilo);
-    .fa {
-      @include inuit-font-size(18px);
-    }
-  }
-
-}
+/**
+ * Base heading styles for Predix Experience
+ */
