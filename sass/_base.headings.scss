@@ -3,25 +3,22 @@
 \*------------------------------------*/
 
 /**
- * Base heading styles for Predix Experience
+ * Headings 1–6.
  */
- 
+
+@import "inuit-defaults/settings.defaults";
 @import "px-functions-design/sass/tools.functions";
 @import "inuit-mixins/tools.mixins";
 
-@if import-once('base.headings') {
+// Predefine the variables below in order to alter and enable specific features.
+$inuit-heading-size-1:  36px !default;
+$inuit-heading-size-2:  30px !default;
+$inuit-heading-size-3:  24px !default;
+$inuit-heading-size-4:  20px !default;
+$inuit-heading-size-5:  16px !default;
+$inuit-heading-size-6:  14px !default;
 
-  /**
-  * Headings 1–6.
-  */
-  
-  // Predefine the variables below in order to alter and enable specific features.
-  $inuit-heading-size-1:  36px !default;
-  $inuit-heading-size-2:  30px !default;
-  $inuit-heading-size-3:  24px !default;
-  $inuit-heading-size-4:  20px !default;
-  $inuit-heading-size-5:  16px !default;
-  $inuit-heading-size-6:  14px !default;
+@if import-once('base.headings') {
   
   h1 {
     @include inuit-font-size($inuit-heading-size-1);
