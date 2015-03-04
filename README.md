@@ -18,7 +18,9 @@ Install this module and its dependencies using bower:
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
-    @import "px-headings-design/sass/base.headings";
+    @import "../px-headings-design/base.headings";
+
+See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
