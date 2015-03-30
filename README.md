@@ -8,19 +8,19 @@ Px's Tables module depends on three other Px and inuitcss modules:
 
 * [settings.defaults](https://github.com/inuitcss/settings.defaults)
 * [tools.mixins](https://github.com/inuitcss/tools.mixins)
-* [px-functions-design](https://github.sw.ge.com/pxc/px-functions-design)
+* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/pxc/px-headings-design.git
+    bower install --save https://github.sw.ge.com/PXd/px-headings-design.git
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
     @import "../px-headings-design/base.headings";
 
-See [px-getting-started](https://github.sw.ge.com/pxc/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
