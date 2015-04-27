@@ -11,36 +11,46 @@
 @import "../inuit-mixins/tools.mixins";
 
 // Predefine the variables below in order to alter and enable specific features.
-$inuit-heading-size-1:  75px !default;
-$inuit-heading-size-2:  60px !default;
-$inuit-heading-size-3:  45px !default;
-$inuit-heading-size-4:  30px !default;
-$inuit-heading-size-5:  20px !default;
-$inuit-heading-size-6:  12px !default;
+$inuit-heading-size-1:  calculateRem(75px) !default;
+$inuit-heading-size-2:  calculateRem(60px) !default;
+$inuit-heading-size-3:  calculateRem(45px) !default;
+$inuit-heading-size-4:  calculateRem(30px) !default;
+$inuit-heading-size-5:  calculateRem(20px) !default;
+$inuit-heading-size-6:  calculateRem(12px) !default;
 
 @if import-once('base.headings') {
   
-  h1 {
+  h1, h2, h3, h4, h5, h6 {
+    @include inuit-font-size($inuit-base-font-size);
+  }
+  
+  .#{$inuit-namespace}alpha,
+  %#{$inuit-namespace}alpha {
     @include inuit-font-size($inuit-heading-size-1);
   }
   
-  h2 {
+  .#{$inuit-namespace}beta,
+  %#{$inuit-namespace}beta {
     @include inuit-font-size($inuit-heading-size-2);
   }
   
-  h3 {
+  .#{$inuit-namespace}gamma,
+  %#{$inuit-namespace}gamma {
     @include inuit-font-size($inuit-heading-size-3);
   }
   
-  h4 {
+  .#{$inuit-namespace}delta,
+  %#{$inuit-namespace}delta {
     @include inuit-font-size($inuit-heading-size-4);
   }
   
-  h5 {
+  .#{$inuit-namespace}epsilon,
+  %#{$inuit-namespace}epsilon {
     @include inuit-font-size($inuit-heading-size-5);
   }
   
-  h6 {
+  .#{$inuit-namespace}zeta,
+  %#{$inuit-namespace}zeta {
     @include inuit-font-size($inuit-heading-size-6);
   }
 
