@@ -11,12 +11,12 @@
 @import "../inuit-mixins/tools.mixins";
 
 // Predefine the variables below in order to alter and enable specific features.
-$inuit-heading-size-1:  calculateRem(75px) !default;
-$inuit-heading-size-2:  calculateRem(60px) !default;
-$inuit-heading-size-3:  calculateRem(45px) !default;
-$inuit-heading-size-4:  calculateRem(30px) !default;
-$inuit-heading-size-5:  calculateRem(20px) !default;
-$inuit-heading-size-6:  calculateRem(12px) !default;
+$inuit-heading-size-1:  75px !default;
+$inuit-heading-size-2:  60px !default;
+$inuit-heading-size-3:  45px !default;
+$inuit-heading-size-4:  30px !default;
+$inuit-heading-size-5:  20px !default;
+$inuit-heading-size-6:  12px !default;
 
 @if import-once('base.headings') {
   
