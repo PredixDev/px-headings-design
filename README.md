@@ -2,25 +2,32 @@
 
 The Predix Experience Headings module defines font sizes for base-level heading elements from `h1` through to `h6`. This module is a fork of the [inuitcss Headings module](https://github.com/inuitcss/base.headings).
 
+## Demo
+
+You can review button styles and recommended markup and required here: https://github.build.ge.com/pages/PXd/px-headings-design
+
+## Sass Documentation
+
+You can review Sass Documentation here: https://github.build.ge.com/pages/PXd/px-headings-design/sassdoc
+
 ## Dependencies
 
-Px's Tables module depends on three other Px and inuitcss modules:
+Px's Headings module depends on two other Px modules:
 
-* [settings.defaults](https://github.com/inuitcss/settings.defaults)
-* [tools.mixins](https://github.com/inuitcss/tools.mixins)
-* [px-functions-design](https://github.sw.ge.com/PXd/px-functions-design)
+* [px-defaults-design](https://github.build.ge.com/PXd/px-defaults-design)
+* [px-mixins-design](https://github.build.ge.com/PXd/px-mixins-design)
 
 ## Installation
 
 Install this module and its dependencies using bower:
 
-    bower install --save https://github.sw.ge.com/PXd/px-headings-design.git
+    bower install --save https://github.build.ge.com/PXd/px-headings-design.git
 
 Once installed, `@import` into your project's Sass file in its Base layer:
 
     @import "../px-headings-design/base.headings";
 
-See [px-getting-started](https://github.sw.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
+See [px-getting-started](https://github.build.ge.com/PXd/px-getting-started#a-note-about-relative-import-paths) for an explanation of the `../`
 
 ## Import once
 
