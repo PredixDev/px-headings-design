@@ -4,7 +4,7 @@ The Predix Experience Headings module defines font sizes for base-level heading 
 
 ## Demo
 
-You can review button styles and recommended markup and required here: https://github.build.ge.com/pages/PXd/px-headings-design
+You can review heading styles here: https://github.build.ge.com/pages/PXd/px-headings-design
 
 ## Sass Documentation
 
