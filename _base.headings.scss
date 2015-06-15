@@ -4,8 +4,8 @@
 /// @group px-headings-design
 ////
 
-@import "../px-defaults-design/settings.defaults";
-@import "../px-mixins-design/tools.mixins";
+@import "px-defaults-design/_settings.defaults.scss";
+@import "px-mixins-design/_tools.mixins.scss";
 
 /// @type String [default] - Prepend value for all generated classes
 $inuit-headings-namespace   : $inuit-namespace !default;
@@ -27,37 +27,33 @@ $inuit-heading-size-5       : 20px !default;
 
 /// @type Number [default] - Heading size 6
 $inuit-heading-size-6       : 12px !default;
+  
+.#{$inuit-headings-namespace}alpha,
+%#{$inuit-headings-namespace}alpha {
+  @include inuit-font-size($inuit-heading-size-1);
+}
 
-@if import-once('base.headings') {
-  
-  .#{$inuit-headings-namespace}alpha,
-  %#{$inuit-headings-namespace}alpha {
-    @include inuit-font-size($inuit-heading-size-1);
-  }
-  
-  .#{$inuit-headings-namespace}beta,
-  %#{$inuit-headings-namespace}beta {
-    @include inuit-font-size($inuit-heading-size-2);
-  }
-  
-  .#{$inuit-headings-namespace}gamma,
-  %#{$inuit-headings-namespace}gamma {
-    @include inuit-font-size($inuit-heading-size-3);
-  }
-  
-  .#{$inuit-headings-namespace}delta,
-  %#{$inuit-headings-namespace}delta {
-    @include inuit-font-size($inuit-heading-size-4);
-  }
-  
-  .#{$inuit-headings-namespace}epsilon,
-  %#{$inuit-headings-namespace}epsilon {
-    @include inuit-font-size($inuit-heading-size-5);
-  }
-  
-  .#{$inuit-headings-namespace}zeta,
-  %#{$inuit-headings-namespace}zeta {
-    @include inuit-font-size($inuit-heading-size-6);
-  }
+.#{$inuit-headings-namespace}beta,
+%#{$inuit-headings-namespace}beta {
+  @include inuit-font-size($inuit-heading-size-2);
+}
 
+.#{$inuit-headings-namespace}gamma,
+%#{$inuit-headings-namespace}gamma {
+  @include inuit-font-size($inuit-heading-size-3);
+}
+
+.#{$inuit-headings-namespace}delta,
+%#{$inuit-headings-namespace}delta {
+  @include inuit-font-size($inuit-heading-size-4);
+}
+
+.#{$inuit-headings-namespace}epsilon,
+%#{$inuit-headings-namespace}epsilon {
+  @include inuit-font-size($inuit-heading-size-5);
+}
+
+.#{$inuit-headings-namespace}zeta,
+%#{$inuit-headings-namespace}zeta {
+  @include inuit-font-size($inuit-heading-size-6);
 }
