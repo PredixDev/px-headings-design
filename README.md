@@ -2,13 +2,10 @@
 
 The Predix Experience Headings module defines font sizes for base-level heading elements from `h1` through to `h6`. This module is a fork of the [inuitcss Headings module](https://github.com/inuitcss/base.headings).
 
-## Demo
 
-You can review heading styles here: https://github.com/pages/PredixDev/px-headings-design
 
-## Sass Documentation
 
-You can review Sass Documentation here: https://github.com/pages/PredixDev/px-headings-design/sassdoc
+
 
 ## Dependencies
 
