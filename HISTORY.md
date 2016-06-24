@@ -1,3 +1,7 @@
+v0.2.14
+==============================
+* updated index page for more clearity
+
 v0.2.13
 ==============================
 * updated oss notice and readme, pointing to gh-pages
