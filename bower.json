@@ -12,7 +12,6 @@
     "sass",
     "headings"
   ],
-  "license": "Apache 2",
   "homepage": "https://github.com/PredixDev/px-headings-design.git",
   "private": false,
   "ignore": [
