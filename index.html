@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>px-headings-design Demo</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+  <!-- Boilerplate: Import Libraries -->
+  <script src="../webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../px-theme/px-theme.html" />
+  <link rel="import" href="../px-sass-doc/px-sass-doc.html" />
+
+  <!-- 0: Import Module Styles -->
+  <link rel="stylesheet" type="text/css" href="css/px-headings-design-demo.css" />
+</head>
+<body>
+<template id="just-for-demo" is="dom-bind">
+
+<!-- 1: Describe Module -->
+<px-sass-doc
+  module-name="px-headings-design"
+  description="The Predix UI Headings module defines font sizes for base-level heading elements from h1 through h6."
+  layer="base"
+  sassdoc-path="sassdoc.json"
+  dependencies='[
+    "https://github.com/PredixDev/px-defaults-design",
+    "https://github.com/PredixDev/px-mixins-design"
+  ]'
+  selected-options="{{selectedOptions}}">
+
+<!-- 2: Set Options -->
+<px-sass-doc-option
+  option-name="Size"
+  choose-with="dropdown"
+  choices='[
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ]'
+  default-choice="1">
+</px-sass-doc-option>
+
+<!-- 3: Make HTML Demo -->
+<section data-slot="htmlDemo">
+  <h1 class$="{{headingClass}}">Heading Size {{headingSize}}</h1>
+</section>
+
+<!-- 4: Set Import Slot -->
+<section data-slot="importDemo">
+{{importCode}}
+</section>
+
+<section data-slot="usageHTML">
+<!-- Heading Size 1 -->
+<h1 class="alpha"></h1>
+<!-- Heading Size 2 -->
+<h2 class="beta"></h2>
+<!-- Heading Size 3 -->
+<h3 class="gamma"></h3>
+<!-- Heading Size 4 -->
+<h4 class="delta"></h4>
+<!-- Heading Size 5 -->
+<h5 class="epsilon"></h5>
+<!-- Heading Size 6 -->
+<h6 class="zeta"></h6>
+</section>
+
+</px-sass-doc>
+</template>
+
+<!-- 6: Handle selectedOptions, update demo -->
+<script>
+  var template = document.querySelector('template[is=dom-bind]');
+
+  document.addEventListener('px-sass-doc-options-updated', function(evt) {
+    template.headingClass = template._headingClass();
+    template.headingSize = template._headingSize();
+    template.importCode = template._importCode();
+  });
+
+  template._headingSize = function() {
+    var opts = template.selectedOptions || {};
+    if(opts.Size === "1") return "1";
+    if(opts.Size === "2") return "2";
+    if(opts.Size === "3") return "3";
+    if(opts.Size === "4") return "4";
+    if(opts.Size === "5") return "5";
+    if(opts.Size === "6") return "6";
+
+  };
+
+  template._headingClass = function() {
+    var opts = template.selectedOptions || {};
+    if(opts.Size === "1") return "alpha";
+    if(opts.Size === "2") return "beta";
+    if(opts.Size === "3") return "gamma";
+    if(opts.Size === "4") return "delta";
+    if(opts.Size === "5") return "epsilon";
+    if(opts.Size === "6") return "zeta";
+  };
+
+
+  template._importCode = function() {
+
+    return '@import "px-headings-design/_base.headings.scss"';
+  };
+</script>
+</body>
+</html>
