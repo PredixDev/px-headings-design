@@ -1,5 +1,31 @@
 [
     {
+        "description": "Heading size 6\n\nSets the size for the h5 class `.zeta`. Should be a number in pixels or rems.\n",
+        "commentRange": {
+            "start": 46,
+            "end": 49
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-heading-size-6",
+            "value": "12px",
+            "scope": "default",
+            "line": {
+                "start": 50,
+                "end": 50
+            }
+        },
+        "type": "Number [default]",
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
         "description": "Heading size 1\n",
         "commentRange": {
             "start": 52,
@@ -170,7 +196,7 @@
         }
     },
     {
-        "description": "Heading size 1\n\n",
+        "description": "Sets the size for the h1 class `.alpha`. Should be a number in pixels or rems.\n\n",
         "commentRange": {
             "start": 16,
             "end": 19
@@ -196,7 +222,7 @@
         }
     },
     {
-        "description": "Heading size 2\n\n",
+        "description": "Sets the size for the h2 class `.beta`. Should be a number in pixels or rems.\n\n",
         "commentRange": {
             "start": 22,
             "end": 25
@@ -222,7 +248,7 @@
         }
     },
     {
-        "description": "Heading size 3\n\n",
+        "description": "Sets the size for the h3 class `.gamma`. Should be a number in pixels or rems.\n\n",
         "commentRange": {
             "start": 28,
             "end": 31
@@ -248,7 +274,7 @@
         }
     },
     {
-        "description": "Heading size 4\n\n",
+        "description": "Sets the size for the h4 class `.delta`. Should be a number in pixels or rems.\n\n",
         "commentRange": {
             "start": 34,
             "end": 37
@@ -274,7 +300,7 @@
         }
     },
     {
-        "description": "Heading size 5\n\n",
+        "description": "Sets the size for the h5 class `.epsilon`. Should be a number in pixels or rems.\n\n",
         "commentRange": {
             "start": 40,
             "end": 43
@@ -287,32 +313,6 @@
             "line": {
                 "start": 44,
                 "end": 44
-            }
-        },
-        "group": [
-            "px-headings-design:variables:style"
-        ],
-        "type": "Number [default]",
-        "access": "public",
-        "file": {
-            "path": "_base.headings.scss",
-            "name": "_base.headings.scss"
-        }
-    },
-    {
-        "description": "Heading size 6\n\n",
-        "commentRange": {
-            "start": 46,
-            "end": 49
-        },
-        "context": {
-            "type": "variable",
-            "name": "inuit-heading-size-6",
-            "value": "12px",
-            "scope": "default",
-            "line": {
-                "start": 50,
-                "end": 50
             }
         },
         "group": [

@@ -13,31 +13,31 @@
 /// @type String [default]
 $inuit-headings-namespace   : $inuit-namespace !default;
 
-/// Heading size 1
+/// Sets the size for the h1 class `.alpha`. Should be a number in pixels or rems.
 ///
 /// @group px-headings-design:variables:style
 /// @type Number [default]
 $inuit-heading-size-1       : 75px !default;
 
-/// Heading size 2
+/// Sets the size for the h2 class `.beta`. Should be a number in pixels or rems.
 ///
 /// @group px-headings-design:variables:style
 /// @type Number [default]
 $inuit-heading-size-2       : 60px !default;
 
-/// Heading size 3
+/// Sets the size for the h3 class `.gamma`. Should be a number in pixels or rems.
 ///
 /// @group px-headings-design:variables:style
 /// @type Number [default]
 $inuit-heading-size-3       : 45px !default;
 
-/// Heading size 4
+/// Sets the size for the h4 class `.delta`. Should be a number in pixels or rems.
 ///
 /// @group px-headings-design:variables:style
 /// @type Number [default]
 $inuit-heading-size-4       : 30px !default;
 
-/// Heading size 5
+/// Sets the size for the h5 class `.epsilon`. Should be a number in pixels or rems.
 ///
 /// @group px-headings-design:variables:style
 /// @type Number [default]
@@ -45,7 +45,7 @@ $inuit-heading-size-5       : 20px !default;
 
 /// Heading size 6
 ///
-/// @group px-headings-design:variables:style
+/// Sets the size for the h5 class `.zeta`. Should be a number in pixels or rems.
 /// @type Number [default]
 $inuit-heading-size-6       : 12px !default;
 
