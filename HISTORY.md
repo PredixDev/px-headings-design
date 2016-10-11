@@ -1,3 +1,7 @@
+v0.2.16
+==============================
+* Updated travis test configuration
+
 v0.2.15
 ==============================
 * Added a new demo, with dependencies.
