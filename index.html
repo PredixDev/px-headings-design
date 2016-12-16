@@ -37,54 +37,54 @@
   option-name="Size"
   choose-with="dropdown"
   choices='[
-    "h1",
-    "h2",
-    "h3",
-    "h4",
-    "h5",
-    "h6"
+    "h1 alpha",
+    "h2 beta",
+    "h3 gamma",
+    "h4 delta",
+    "h5 epsilon",
+    "h6 zeta"
   ]'
-  default-choice="h1">
+  default-choice="h1 alpha">
 </px-sass-doc-option>
 
 <!-- 3: Make HTML Demo -->
 <!-- H1 -->
-<template is="dom-if" if="{{isSize('h1',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h1 alpha',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h1 class$="{{headingClass}}">H1 Heading Size 75px</h1>
   </section>
 </template>
 
 <!-- H2 -->
-<template is="dom-if" if="{{isSize('h2',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h2 beta',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h2 class$="{{headingClass}}">H2 Heading Size 60px</h2>
   </section>
 </template>
 
 <!-- H3 -->
-<template is="dom-if" if="{{isSize('h3',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h3 gamma',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h3 class$="{{headingClass}}">H3 Heading Size 45px</h3>
   </section>
 </template>
 
 <!-- H4 -->
-<template is="dom-if" if="{{isSize('h4',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h4 delta',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h4 class$="{{headingClass}}">H4 Heading Size 30px</h4>
   </section>
 </template>
 
 <!-- H5 -->
-<template is="dom-if" if="{{isSize('h5',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h5 epsilon',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h5 class$="{{headingClass}}">H5 Heading Size 20px</h5>
   </section>
 </template>
 
 <!-- H6 -->
-<template is="dom-if" if="{{isSize('h6',selectedOptions)}}" restamp>
+<template is="dom-if" if="{{isSize('h6 zeta',selectedOptions)}}" restamp>
   <section data-slot="demoHTML">
     <h6 class$="{{headingClass}}">H6 Heading Size 12px</h6>
   </section>
@@ -155,12 +155,12 @@ Here are all the heading classes available:
 
   template._headingClass = function() {
     var opts = template.selectedOptions || {};
-    if(opts.Size === "h1") return "alpha";
-    if(opts.Size === "h2") return "beta";
-    if(opts.Size === "h3") return "gamma";
-    if(opts.Size === "h4") return "delta";
-    if(opts.Size === "h5") return "epsilon";
-    if(opts.Size === "h6") return "zeta";
+    if(opts.Size === "h1 alpha") return "alpha";
+    if(opts.Size === "h2 beta") return "beta";
+    if(opts.Size === "h3 gamma") return "gamma";
+    if(opts.Size === "h4 delta") return "delta";
+    if(opts.Size === "h5 epsilon") return "epsilon";
+    if(opts.Size === "h6 zeta") return "zeta";
   };
 
   template.isSize = function(size) {

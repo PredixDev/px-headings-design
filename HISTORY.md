@@ -1,3 +1,7 @@
+v0.3.2
+==================
+* added font-weight = normal to reflect the design spec
+
 v0.3.1
 ==================
 * Update missed design depndencies
