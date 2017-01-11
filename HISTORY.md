@@ -1,3 +1,7 @@
+v0.3.3
+==================
+* changing ghp.sh to account for Alpha releases
+
 v0.3.2
 ==================
 * added font-weight = normal to reflect the design spec
