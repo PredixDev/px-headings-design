@@ -1,3 +1,7 @@
+v1.0.0
+==================
+* added header type classes for redesign
+
 v0.3.5
 ==================
 * updated to new demo using px-demo
