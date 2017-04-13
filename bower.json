@@ -29,7 +29,7 @@
     "OSS_Notice.pdf"
   ],
   "dependencies": {
-    "px-defaults-design": "^2.0.0",
+    "px-defaults-design": "^1.0.0",
     "px-mixins-design": "^1.0.0"
   },
   "devDependencies": {
