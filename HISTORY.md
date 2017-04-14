@@ -1,6 +1,7 @@
-v1.0.0
+v1.0.0-prerelease
 ==================
 * added header type classes for redesign
+* updated dependencies for design refresh
 
 v0.3.5
 ==================
