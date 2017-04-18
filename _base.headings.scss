@@ -49,44 +49,122 @@ $inuit-heading-size-5       : 20px !default;
 /// @type Number [default]
 $inuit-heading-size-6       : 12px !default;
 
-/// Heading size 1
+/// Page heading font color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-heading-page-color                      : $gray15 !default;
+
+/// Section heading font color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-heading-section-color                   : $gray10 !default;
+
+/// Subsection heading font color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-heading-subsection-color               : $gray15 !default;
+
+/// Subsection heading background color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-heading-subsection-background          : $gray2 !default;
+
+/// Label font color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-label-color                     : $gray10 !default;
+
+/// Value font color
+/// @group px-headings-design:variables:style
+/// @type Color [default]
+$inuit-value-color                     : $gray15 !default;
+
+
+
+/// Heading size 1 : 75px
 .#{$inuit-headings-namespace}alpha,
 %#{$inuit-headings-namespace}alpha {
   @include inuit-font-size($inuit-heading-size-1);
-  font-weight: normal; 
+  font-weight: normal;
 }
 
-/// Heading size 2
+/// Heading size 2 : 60px
 .#{$inuit-headings-namespace}beta,
 %#{$inuit-headings-namespace}beta {
   @include inuit-font-size($inuit-heading-size-2);
-  font-weight: normal;   
+  font-weight: normal;
 }
 
-/// Heading size 3
+/// Heading size 3 : 45px
 .#{$inuit-headings-namespace}gamma,
 %#{$inuit-headings-namespace}gamma {
   @include inuit-font-size($inuit-heading-size-3);
-  font-weight: normal;   
+  font-weight: normal;
 }
 
-/// Heading size 4
+/// Heading size 4 : 30px
 .#{$inuit-headings-namespace}delta,
 %#{$inuit-headings-namespace}delta {
   @include inuit-font-size($inuit-heading-size-4);
-  font-weight: normal;   
+  font-weight: normal;
 }
 
-/// Heading size 5
+/// Heading size 5 : 20px
 .#{$inuit-headings-namespace}epsilon,
 %#{$inuit-headings-namespace}epsilon {
   @include inuit-font-size($inuit-heading-size-5);
-  font-weight: normal;   
+  font-weight: normal;
 }
 
-/// Heading size 6
+/// Heading size 6 : 12px
 .#{$inuit-headings-namespace}zeta,
 %#{$inuit-headings-namespace}zeta {
   @include inuit-font-size($inuit-heading-size-6);
-  font-weight: normal;   
+  font-weight: normal;
 }
+
+
+/// Page Header
+.#{$inuit-headings-namespace}heading--page,
+%#{$inuit-headings-namespace}heading--page {
+  @include inuit-font-size($inuit-heading-size-4);
+  color: var(--px-headings-heading-page-color, $inuit-heading-page-color);
+}
+
+/// Section Header
+.#{$inuit-headings-namespace}heading--section,
+%#{$inuit-headings-namespace}heading--section {
+  @include inuit-font-size($inuit-heading-size-5);
+  color: var(--px-headings-heading-section-color, $inuit-heading-section-color);
+  text-transform: uppercase;
+}
+
+/// Sub-Section Header
+.#{$inuit-headings-namespace}heading--subsection,
+%#{$inuit-headings-namespace}heading--subsection {
+  @include inuit-font-size($inuit-base-font-size);
+  color: var(--px-headings-heading-subsection-color, $inuit-heading-subsection-color);
+  background-color: var(--px-heading-subsection-background, $inuit-heading-subsection-background);
+  text-transform: uppercase;
+  display: flex;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/// Label Header
+.#{$inuit-headings-namespace}label,
+%#{$inuit-headings-namespace}label {
+  @include inuit-font-size($inuit-heading-size-6);
+  color: var(--px-headings-label-color, $inuit-label-color);
+  text-transform: uppercase;
+}
+
+/// Value Header
+.#{$inuit-headings-namespace}value,
+%#{$inuit-headings-namespace}value {
+  @include inuit-font-size($inuit-base-font-size);
+  color: var(--px-headings-value-color, $inuit-value-color);
+  text-transform: uppercase;
+}
+
+

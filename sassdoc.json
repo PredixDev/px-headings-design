@@ -1,17 +1,17 @@
 [
     {
-        "description": "Heading size 1\n",
+        "description": "Heading size 1 : 75px\n",
         "commentRange": {
-            "start": 52,
-            "end": 52
+            "start": 84,
+            "end": 84
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}alpha,\n%#{$inuit-headings-namespace}alpha",
+            "value": "@include inuit-font-size($inuit-heading-size-1);\n  font-weight: normal;",
             "line": {
-                "start": 53,
-                "end": 87
+                "start": 86,
+                "end": 171
             }
         },
         "group": [
@@ -24,18 +24,18 @@
         }
     },
     {
-        "description": "Heading size 2\n",
+        "description": "Heading size 2 : 60px\n",
         "commentRange": {
-            "start": 58,
-            "end": 58
+            "start": 91,
+            "end": 91
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}beta,\n%#{$inuit-headings-namespace}beta",
+            "value": "@include inuit-font-size($inuit-heading-size-2);\n  font-weight: normal;",
             "line": {
-                "start": 59,
-                "end": 87
+                "start": 93,
+                "end": 171
             }
         },
         "group": [
@@ -48,18 +48,18 @@
         }
     },
     {
-        "description": "Heading size 3\n",
+        "description": "Heading size 3 : 45px\n",
         "commentRange": {
-            "start": 64,
-            "end": 64
+            "start": 98,
+            "end": 98
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}gamma,\n%#{$inuit-headings-namespace}gamma",
+            "value": "@include inuit-font-size($inuit-heading-size-3);\n  font-weight: normal;",
             "line": {
-                "start": 65,
-                "end": 87
+                "start": 100,
+                "end": 171
             }
         },
         "group": [
@@ -72,18 +72,18 @@
         }
     },
     {
-        "description": "Heading size 4\n",
+        "description": "Heading size 4 : 30px\n",
         "commentRange": {
-            "start": 70,
-            "end": 70
+            "start": 105,
+            "end": 105
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}delta,\n%#{$inuit-headings-namespace}delta",
+            "value": "@include inuit-font-size($inuit-heading-size-4);\n  font-weight: normal;",
             "line": {
-                "start": 71,
-                "end": 87
+                "start": 107,
+                "end": 171
             }
         },
         "group": [
@@ -96,18 +96,18 @@
         }
     },
     {
-        "description": "Heading size 5\n",
+        "description": "Heading size 5 : 20px\n",
         "commentRange": {
-            "start": 76,
-            "end": 76
+            "start": 112,
+            "end": 112
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}epsilon,\n%#{$inuit-headings-namespace}epsilon",
+            "value": "@include inuit-font-size($inuit-heading-size-5);\n  font-weight: normal;",
             "line": {
-                "start": 77,
-                "end": 87
+                "start": 114,
+                "end": 171
             }
         },
         "group": [
@@ -120,18 +120,138 @@
         }
     },
     {
-        "description": "Heading size 6\n",
+        "description": "Heading size 6 : 12px\n",
         "commentRange": {
-            "start": 82,
-            "end": 82
+            "start": 119,
+            "end": 119
         },
         "context": {
             "type": "css",
-            "name": ".#",
-            "value": "$inuit-headings-namespace",
+            "name": ".#{$inuit-headings-namespace}zeta,\n%#{$inuit-headings-namespace}zeta",
+            "value": "@include inuit-font-size($inuit-heading-size-6);\n  font-weight: normal;",
             "line": {
-                "start": 83,
-                "end": 87
+                "start": 121,
+                "end": 171
+            }
+        },
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Page Header\n",
+        "commentRange": {
+            "start": 127,
+            "end": 127
+        },
+        "context": {
+            "type": "css",
+            "name": ".#{$inuit-headings-namespace}header--page,\n%#{$inuit-headings-namespace}header--page",
+            "value": "@include inuit-font-size($inuit-heading-size-4);\n  color: var(--px-headings-header-page-color, $inuit-header-page-color);",
+            "line": {
+                "start": 129,
+                "end": 171
+            }
+        },
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Section Header\n",
+        "commentRange": {
+            "start": 134,
+            "end": 134
+        },
+        "context": {
+            "type": "css",
+            "name": ".#{$inuit-headings-namespace}header--section,\n%#{$inuit-headings-namespace}header--section",
+            "value": "@include inuit-font-size($inuit-heading-size-5);\n  color: var(--px-headings-header-section-color, $inuit-header-section-color);\n  text-transform: uppercase;",
+            "line": {
+                "start": 136,
+                "end": 171
+            }
+        },
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Sub-Section Header\n",
+        "commentRange": {
+            "start": 142,
+            "end": 142
+        },
+        "context": {
+            "type": "css",
+            "name": ".#{$inuit-headings-namespace}header--sub-section,\n%#{$inuit-headings-namespace}header--sub-section",
+            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: var(--px-headings-header-sub-section-color, $inuit-header-sub-section-color);\n  background-color: var(--px-header-sub-section-background, $inuit-header-sub-section-background);\n  text-transform: uppercase;\n  display: flex;\n  padding-left: 5px;\n  padding-right: 5px;",
+            "line": {
+                "start": 144,
+                "end": 171
+            }
+        },
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Label Header\n",
+        "commentRange": {
+            "start": 154,
+            "end": 154
+        },
+        "context": {
+            "type": "css",
+            "name": ".#{$inuit-headings-namespace}label,\n%#{$inuit-headings-namespace}label",
+            "value": "@include inuit-font-size($inuit-heading-size-6);\n  color: var(--px-headings-label-color, $inuit-label-color);\n  text-transform: uppercase;",
+            "line": {
+                "start": 156,
+                "end": 171
+            }
+        },
+        "group": [
+            "px-headings-design"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Value Header\n",
+        "commentRange": {
+            "start": 162,
+            "end": 162
+        },
+        "context": {
+            "type": "css",
+            "name": ".#{$inuit-headings-namespace}value,\n%#{$inuit-headings-namespace}value",
+            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: var(--px-headings-value-color, $inuit-value-color);\n  text-transform: uppercase;",
+            "line": {
+                "start": 164,
+                "end": 171
             }
         },
         "group": [
@@ -319,6 +439,162 @@
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Page header font color\n",
+        "commentRange": {
+            "start": 52,
+            "end": 54
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-header-page-color",
+            "value": "$gray15",
+            "scope": "default",
+            "line": {
+                "start": 55,
+                "end": 55
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Section header font color\n",
+        "commentRange": {
+            "start": 57,
+            "end": 59
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-header-section-color",
+            "value": "$gray10",
+            "scope": "default",
+            "line": {
+                "start": 60,
+                "end": 60
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Sub-section header font color\n",
+        "commentRange": {
+            "start": 62,
+            "end": 64
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-header-sub-section-color",
+            "value": "$gray15",
+            "scope": "default",
+            "line": {
+                "start": 65,
+                "end": 65
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Sub-section header background color\n",
+        "commentRange": {
+            "start": 67,
+            "end": 69
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-header-sub-section-background",
+            "value": "$gray2",
+            "scope": "default",
+            "line": {
+                "start": 70,
+                "end": 70
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Label font color\n",
+        "commentRange": {
+            "start": 72,
+            "end": 74
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-label-color",
+            "value": "$gray10",
+            "scope": "default",
+            "line": {
+                "start": 75,
+                "end": 75
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Value font color\n",
+        "commentRange": {
+            "start": 77,
+            "end": 79
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-value-color",
+            "value": "$gray15",
+            "scope": "default",
+            "line": {
+                "start": 80,
+                "end": 80
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
