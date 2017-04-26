@@ -49,6 +49,12 @@ $inuit-heading-size-5       : 20px !default;
 /// @type Number [default]
 $inuit-heading-size-6       : 12px !default;
 
+/// Sets letter-spacing (aka kerning) on text that are all caps
+///
+/// @group px-headings-design:variables:style
+/// @type Number [default]
+$inuit-letter-spacing--caps       : 0.3px !default;
+
 /// Page heading font color
 /// @group px-headings-design:variables:style
 /// @type Color [default]
@@ -72,12 +78,12 @@ $inuit-heading-subsection-background          : $gray2 !default;
 /// Label font color
 /// @group px-headings-design:variables:style
 /// @type Color [default]
-$inuit-label-color                     : $gray10 !default;
+$inuit-heading-label-color                     : $gray10 !default;
 
 /// Value font color
 /// @group px-headings-design:variables:style
 /// @type Color [default]
-$inuit-value-color                     : $gray15 !default;
+$inuit-heading-value-color                     : $gray15 !default;
 
 
 
@@ -146,6 +152,7 @@ $inuit-value-color                     : $gray15 !default;
   color: var(--px-headings-heading-subsection-color, $inuit-heading-subsection-color);
   background-color: var(--px-headings-subsection-background, $inuit-heading-subsection-background);
   text-transform: uppercase;
+  letter-spacing: var(--px-headings-letter-spacing, $inuit-letter-spacing--caps);
   display: flex;
   padding-left: 5px;
   padding-right: 5px;
@@ -155,15 +162,16 @@ $inuit-value-color                     : $gray15 !default;
 .#{$inuit-headings-namespace}label,
 %#{$inuit-headings-namespace}label {
   @include inuit-font-size($inuit-heading-size-6);
-  color: var(--px-headings-label-color, $inuit-label-color);
+  color: var(--px-headings-label-color, $inuit-heading-label-color);
   text-transform: uppercase;
+  letter-spacing: var(--px-headings-letter-spacing, $inuit-letter-spacing--caps);
 }
 
 /// Value Header
 .#{$inuit-headings-namespace}value,
 %#{$inuit-headings-namespace}value {
   @include inuit-font-size($inuit-base-font-size);
-  color: var(--px-headings-value-color, $inuit-value-color);
+  color: var(--px-headings-value-color, $inuit-heading-value-color);
 }
 
 
