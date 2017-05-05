@@ -446,7 +446,7 @@
         }
     },
     {
-        "description": "Sets letter-spacing (aka kerning) on text that are all caps\n\n",
+        "description": "Sets letter-spacing (kerning) on all caps text\n\n",
         "commentRange": {
             "start": 52,
             "end": 55
