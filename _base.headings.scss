@@ -150,7 +150,7 @@ $inuit-heading-value-color                     : $gray15 !default;
 %#{$inuit-headings-namespace}heading--subsection {
   @include inuit-font-size($inuit-base-font-size);
   color: var(--px-headings-heading-subsection-color, $inuit-heading-subsection-color);
-  background-color: var(--px-headings-subsection-background, $inuit-heading-subsection-background);
+  background-color: var(--px-headings-heading-subsection-background, $inuit-heading-subsection-background);
   text-transform: uppercase;
   letter-spacing: var(--px-headings-letter-spacing, $inuit-letter-spacing--caps);
   display: flex;
@@ -173,5 +173,3 @@ $inuit-heading-value-color                     : $gray15 !default;
   @include inuit-font-size($inuit-base-font-size);
   color: var(--px-headings-value-color, $inuit-heading-value-color);
 }
-
-
