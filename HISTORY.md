@@ -1,5 +1,6 @@
 v1.0.0
 ==================
+* updated css variables to match those defined in px-theme
 * updated dependencies for design refresh
 * added header type classes for redesign
 
