@@ -30,6 +30,7 @@
     "OSS_Notice.pdf"
   ],
   "dependencies": {
+    "px-colors-design": "^1.0.0",
     "px-defaults-design": "^2.0.0",
     "px-mixins-design": "^1.0.0"
   },
