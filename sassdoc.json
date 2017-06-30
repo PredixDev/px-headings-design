@@ -2,16 +2,16 @@
     {
         "description": "Heading size 1 : 75px\n",
         "commentRange": {
-            "start": 90,
-            "end": 90
+            "start": 97,
+            "end": 97
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}alpha,\n%#{$inuit-headings-namespace}alpha",
             "value": "@include inuit-font-size($inuit-heading-size-1);\n  font-weight: normal;",
             "line": {
-                "start": 92,
-                "end": 178
+                "start": 99,
+                "end": 183
             }
         },
         "group": [
@@ -26,16 +26,16 @@
     {
         "description": "Heading size 2 : 60px\n",
         "commentRange": {
-            "start": 97,
-            "end": 97
+            "start": 104,
+            "end": 104
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}beta,\n%#{$inuit-headings-namespace}beta",
             "value": "@include inuit-font-size($inuit-heading-size-2);\n  font-weight: normal;",
             "line": {
-                "start": 99,
-                "end": 178
+                "start": 106,
+                "end": 183
             }
         },
         "group": [
@@ -50,16 +50,16 @@
     {
         "description": "Heading size 3 : 45px\n",
         "commentRange": {
-            "start": 104,
-            "end": 104
+            "start": 111,
+            "end": 111
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}gamma,\n%#{$inuit-headings-namespace}gamma",
             "value": "@include inuit-font-size($inuit-heading-size-3);\n  font-weight: normal;",
             "line": {
-                "start": 106,
-                "end": 178
+                "start": 113,
+                "end": 183
             }
         },
         "group": [
@@ -74,16 +74,16 @@
     {
         "description": "Heading size 4 : 30px\n",
         "commentRange": {
-            "start": 111,
-            "end": 111
+            "start": 118,
+            "end": 118
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}delta,\n%#{$inuit-headings-namespace}delta",
             "value": "@include inuit-font-size($inuit-heading-size-4);\n  font-weight: normal;",
             "line": {
-                "start": 113,
-                "end": 178
+                "start": 120,
+                "end": 183
             }
         },
         "group": [
@@ -98,16 +98,16 @@
     {
         "description": "Heading size 5 : 20px\n",
         "commentRange": {
-            "start": 118,
-            "end": 118
+            "start": 125,
+            "end": 125
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}epsilon,\n%#{$inuit-headings-namespace}epsilon",
             "value": "@include inuit-font-size($inuit-heading-size-5);\n  font-weight: normal;",
             "line": {
-                "start": 120,
-                "end": 178
+                "start": 127,
+                "end": 183
             }
         },
         "group": [
@@ -122,16 +122,16 @@
     {
         "description": "Heading size 6 : 12px\n",
         "commentRange": {
-            "start": 125,
-            "end": 125
+            "start": 132,
+            "end": 132
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}zeta,\n%#{$inuit-headings-namespace}zeta",
             "value": "@include inuit-font-size($inuit-heading-size-6);\n  font-weight: normal;",
             "line": {
-                "start": 127,
-                "end": 178
+                "start": 134,
+                "end": 183
             }
         },
         "group": [
@@ -146,16 +146,16 @@
     {
         "description": "Page Header\n",
         "commentRange": {
-            "start": 133,
-            "end": 133
+            "start": 140,
+            "end": 140
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--page,\n%#{$inuit-headings-namespace}heading--page",
-            "value": "@include inuit-font-size($inuit-heading-size-4);\n  color: var(--px-headings-heading-page-color, $inuit-heading-page-color);",
+            "value": "@include inuit-font-size($inuit-heading-size-4);\n  color: $inuit-heading-page-color;",
             "line": {
-                "start": 135,
-                "end": 178
+                "start": 142,
+                "end": 183
             }
         },
         "group": [
@@ -170,16 +170,16 @@
     {
         "description": "Section Header\n",
         "commentRange": {
-            "start": 140,
-            "end": 140
+            "start": 147,
+            "end": 147
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--section,\n%#{$inuit-headings-namespace}heading--section",
-            "value": "@include inuit-font-size($inuit-heading-size-5);\n  color: var(--px-headings-heading-section-color, $inuit-heading-section-color);\n  text-transform: uppercase;",
+            "value": "@include inuit-font-size($inuit-heading-size-5);\n  color: $inuit-heading-section-color;\n  text-transform: uppercase;",
             "line": {
-                "start": 142,
-                "end": 178
+                "start": 149,
+                "end": 183
             }
         },
         "group": [
@@ -194,16 +194,16 @@
     {
         "description": "Sub-Section Header\n",
         "commentRange": {
-            "start": 148,
-            "end": 148
+            "start": 155,
+            "end": 155
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--subsection,\n%#{$inuit-headings-namespace}heading--subsection",
-            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: var(--px-headings-heading-subsection-color, $inuit-heading-subsection-color);\n  background-color: var(--px-headings-subsection-background, $inuit-heading-subsection-background);\n  text-transform: uppercase;\n  letter-spacing: var(--px-headings-letter-spacing, $inuit-letter-spacing--caps);\n  display: flex;\n  padding-left: 5px;\n  padding-right: 5px;",
+            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: $inuit-heading-subsection-color;\n  background-color: $inuit-heading-subsection-background;\n  text-transform: uppercase;\n  letter-spacing: $inuit-letter-spacing--caps;\n  display: flex;\n  padding-left: 5px;\n  padding-right: 5px;",
             "line": {
-                "start": 150,
-                "end": 178
+                "start": 157,
+                "end": 183
             }
         },
         "group": [
@@ -218,16 +218,16 @@
     {
         "description": "Label Header\n",
         "commentRange": {
-            "start": 161,
-            "end": 161
+            "start": 168,
+            "end": 168
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}label,\n%#{$inuit-headings-namespace}label",
-            "value": "@include inuit-font-size($inuit-heading-size-6);\n  color: var(--px-headings-label-color, $inuit-heading-label-color);\n  text-transform: uppercase;\n  letter-spacing: var(--px-headings-letter-spacing, $inuit-letter-spacing--caps);",
+            "value": "@include inuit-font-size($inuit-heading-size-6);\n  color: $inuit-heading-label-color;\n  text-transform: uppercase;\n  letter-spacing: $inuit-letter-spacing--caps;",
             "line": {
-                "start": 163,
-                "end": 178
+                "start": 170,
+                "end": 183
             }
         },
         "group": [
@@ -242,16 +242,16 @@
     {
         "description": "Value Header\n",
         "commentRange": {
-            "start": 170,
-            "end": 170
+            "start": 177,
+            "end": 177
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}value,\n%#{$inuit-headings-namespace}value",
-            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: var(--px-headings-value-color, $inuit-heading-value-color);",
+            "value": "@include inuit-font-size($inuit-base-font-size);\n  color: $inuit-heading-value-color;",
             "line": {
-                "start": 172,
-                "end": 178
+                "start": 179,
+                "end": 183
             }
         },
         "group": [
@@ -264,10 +264,10 @@
         }
     },
     {
-        "description": "Sets a prepended namespace for all generated classes.\n\n",
+        "description": "Sets a prepended namespace for all generated classes.\n",
         "commentRange": {
-            "start": 10,
-            "end": 13
+            "start": 11,
+            "end": 14
         },
         "context": {
             "type": "variable",
@@ -275,14 +275,17 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 14,
-                "end": 14
+                "start": 15,
+                "end": 15
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "String [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -290,10 +293,10 @@
         }
     },
     {
-        "description": "Sets the size for the h1 class `.alpha`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h1 class `.alpha`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 16,
-            "end": 19
+            "start": 17,
+            "end": 20
         },
         "context": {
             "type": "variable",
@@ -301,14 +304,17 @@
             "value": "75px",
             "scope": "default",
             "line": {
-                "start": 20,
-                "end": 20
+                "start": 21,
+                "end": 21
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -316,10 +322,10 @@
         }
     },
     {
-        "description": "Sets the size for the h2 class `.beta`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h2 class `.beta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 22,
-            "end": 25
+            "start": 23,
+            "end": 26
         },
         "context": {
             "type": "variable",
@@ -327,14 +333,17 @@
             "value": "60px",
             "scope": "default",
             "line": {
-                "start": 26,
-                "end": 26
+                "start": 27,
+                "end": 27
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -342,10 +351,10 @@
         }
     },
     {
-        "description": "Sets the size for the h3 class `.gamma`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h3 class `.gamma`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 28,
-            "end": 31
+            "start": 29,
+            "end": 32
         },
         "context": {
             "type": "variable",
@@ -353,14 +362,17 @@
             "value": "45px",
             "scope": "default",
             "line": {
-                "start": 32,
-                "end": 32
+                "start": 33,
+                "end": 33
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -368,10 +380,10 @@
         }
     },
     {
-        "description": "Sets the size for the h4 class `.delta`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h4 class `.delta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 34,
-            "end": 37
+            "start": 35,
+            "end": 38
         },
         "context": {
             "type": "variable",
@@ -379,14 +391,17 @@
             "value": "30px",
             "scope": "default",
             "line": {
-                "start": 38,
-                "end": 38
+                "start": 39,
+                "end": 39
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -394,10 +409,10 @@
         }
     },
     {
-        "description": "Sets the size for the h5 class `.epsilon`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h5 class `.epsilon`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 40,
-            "end": 43
+            "start": 41,
+            "end": 44
         },
         "context": {
             "type": "variable",
@@ -405,14 +420,17 @@
             "value": "20px",
             "scope": "default",
             "line": {
-                "start": 44,
-                "end": 44
+                "start": 45,
+                "end": 45
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -420,10 +438,10 @@
         }
     },
     {
-        "description": "Sets the size for the h6 class `.zeta`. Should be a number in pixels or rems.\n\n",
+        "description": "Sets the size for the h6 class `.zeta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 46,
-            "end": 49
+            "start": 47,
+            "end": 50
         },
         "context": {
             "type": "variable",
@@ -431,14 +449,17 @@
             "value": "12px",
             "scope": "default",
             "line": {
-                "start": 50,
-                "end": 50
+                "start": 51,
+                "end": 51
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "n/a"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -446,25 +467,28 @@
         }
     },
     {
-        "description": "Sets letter-spacing (kerning) on all caps text\n\n",
+        "description": "Sets letter-spacing (kerning) on all caps text\n",
         "commentRange": {
-            "start": 52,
-            "end": 55
+            "start": 53,
+            "end": 56
         },
         "context": {
             "type": "variable",
             "name": "inuit-letter-spacing--caps",
-            "value": "0.3px",
+            "value": "var(--px-headings-letter-spacing, 0.3px)",
             "scope": "default",
             "line": {
-                "start": 56,
-                "end": 56
+                "start": 57,
+                "end": 57
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Number [default]",
+        "todo": [
+            "--px-headings-letter-spacing"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -474,23 +498,26 @@
     {
         "description": "Page heading font color\n",
         "commentRange": {
-            "start": 58,
-            "end": 60
+            "start": 59,
+            "end": 62
         },
         "context": {
             "type": "variable",
             "name": "inuit-heading-page-color",
-            "value": "$gray15",
+            "value": "var(--px-headings-heading-page-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 61,
-                "end": 61
+                "start": 63,
+                "end": 63
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Color [default]",
+        "todo": [
+            "--px-headings-heading-page-color"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -500,23 +527,26 @@
     {
         "description": "Section heading font color\n",
         "commentRange": {
-            "start": 63,
-            "end": 65
+            "start": 65,
+            "end": 68
         },
         "context": {
             "type": "variable",
             "name": "inuit-heading-section-color",
-            "value": "$gray10",
+            "value": "var(--px-headings-heading-section-color, $gray10)",
             "scope": "default",
             "line": {
-                "start": 66,
-                "end": 66
+                "start": 69,
+                "end": 69
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Color [default]",
+        "todo": [
+            "--px-headings-heading-section-color"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -526,23 +556,26 @@
     {
         "description": "Subsection heading font color\n",
         "commentRange": {
-            "start": 68,
-            "end": 70
+            "start": 71,
+            "end": 74
         },
         "context": {
             "type": "variable",
             "name": "inuit-heading-subsection-color",
-            "value": "$gray15",
+            "value": "var(--px-headings-heading-subsection-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 71,
-                "end": 71
+                "start": 75,
+                "end": 75
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Color [default]",
+        "todo": [
+            "--px-headings-heading-subsection-color"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -552,39 +585,13 @@
     {
         "description": "Subsection heading background color\n",
         "commentRange": {
-            "start": 73,
-            "end": 75
-        },
-        "context": {
-            "type": "variable",
-            "name": "inuit-heading-subsection-background",
-            "value": "$gray2",
-            "scope": "default",
-            "line": {
-                "start": 76,
-                "end": 76
-            }
-        },
-        "group": [
-            "px-headings-design:variables:style"
-        ],
-        "type": "Color [default]",
-        "access": "public",
-        "file": {
-            "path": "_base.headings.scss",
-            "name": "_base.headings.scss"
-        }
-    },
-    {
-        "description": "Label font color\n",
-        "commentRange": {
-            "start": 78,
+            "start": 77,
             "end": 80
         },
         "context": {
             "type": "variable",
-            "name": "inuit-heading-label-color",
-            "value": "$gray10",
+            "name": "inuit-heading-subsection-background",
+            "value": "var(--px-headings-heading-subsection-background, $gray2)",
             "scope": "default",
             "line": {
                 "start": 81,
@@ -595,6 +602,38 @@
             "px-headings-design:variables:style"
         ],
         "type": "Color [default]",
+        "todo": [
+            "--px-headings-heading-subsection-background"
+        ],
+        "access": "public",
+        "file": {
+            "path": "_base.headings.scss",
+            "name": "_base.headings.scss"
+        }
+    },
+    {
+        "description": "Label font color\n",
+        "commentRange": {
+            "start": 83,
+            "end": 86
+        },
+        "context": {
+            "type": "variable",
+            "name": "inuit-heading-label-color",
+            "value": "var(--px-headings-label-color, $gray10)",
+            "scope": "default",
+            "line": {
+                "start": 87,
+                "end": 87
+            }
+        },
+        "group": [
+            "px-headings-design:variables:style"
+        ],
+        "type": "Color [default]",
+        "todo": [
+            "--px-headings-label-color"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
@@ -604,23 +643,26 @@
     {
         "description": "Value font color\n",
         "commentRange": {
-            "start": 83,
-            "end": 85
+            "start": 89,
+            "end": 92
         },
         "context": {
             "type": "variable",
             "name": "inuit-heading-value-color",
-            "value": "$gray15",
+            "value": "var(--px-headings-value-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 86,
-                "end": 86
+                "start": 93,
+                "end": 93
             }
         },
         "group": [
             "px-headings-design:variables:style"
         ],
         "type": "Color [default]",
+        "todo": [
+            "--px-headings-value-color"
+        ],
         "access": "public",
         "file": {
             "path": "_base.headings.scss",
