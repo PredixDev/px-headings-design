@@ -1,47 +1,34 @@
 # px-headings-design
 
-Headings gives you base-level heading sizes in the form of easy-to-apply classes. Use its classes to style H1-H6 heading tags or other text elements. This module is a fork of the [inuitcss Headings module](https://github.com/inuitcss/base.headings).
+The Predix UI Headings module gives you base-level heading sizes in the form of easy-to-apply classes. Use its classes to style H1-H6 heading tags or other text elements. This module is a fork of the [inuitcss Headings module](https://github.com/inuitcss/base.headings).
 
-**px-headings-design is a Predix UI CSS module.** You can find a demonstration and full documentation on the [Predix UI catalog](https://predixdev.github.io/predix-ui/?show=px-headings-design&type=css]).
+## Dependencies
 
-## Install the module
+The `px-headings-design` module depends on the following modules (automatically included with Bower install):
 
-To use the headings module, you need to install it in your project using Bower. Run this task on the command line from inside your project folder:
+* [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
+* [px-mixins-design](https://github.com/PredixDev/px-mixins-design)
 
-```
-bower install --save px-headings-design
-```
+## Installation
 
-## Import it in your Sass
+Install this module and its dependencies using bower:
 
-The headings module won't do anything until you import and configure it in your project Sass file. Follow these steps to import it:
+    bower install --save px-headings-design
 
-### 1. Enable Flags
+Once installed, `@import` into your project's Sass file in its Base layer:
 
-There are no flags to set before importing this module in your project Sass file.
+    @import "px-headings-design/_base.headings.scss";
 
-### 2. Customize Styles
+## Usage
 
-You can change style variables to customize the design of the headings module. To change styles, set any the variables below to a new value above the module's @import statement in your project Sass file:
+You can change style variables to customize the design of the headings module. To change styles, set any the variables below to a new value above the module's @import statement in your project's Sass file:
 
-```
-$inuit-headings-namespace
-$inuit-heading-size-1
-$inuit-heading-size-2
-$inuit-heading-size-3
-$inuit-heading-size-4
-$inuit-heading-size-5
-```
-
-### 3. Import Sass File
-
-Import the module by placing this code into the **Base** layer of your project Sass file:
-
-```
-@import "px-headings-design/_base.headings.scss";
-```
-
-## Use it in your HTML
+    $inuit-headings-namespace
+    $inuit-heading-size-1
+    $inuit-heading-size-2
+    $inuit-heading-size-3
+    $inuit-heading-size-4
+    $inuit-heading-size-5
 
 The headings module exposes classes that set the sizes of your heading tags. Each heading size (`<h1>...</h1>` through `<h6>...</h6>`) has corresponding class listed below. Apply the class to your heading tag and the sizing will automatically happen.
 
@@ -81,9 +68,4 @@ Here are all the heading classes available:
 <h6 class="zeta">...</h6>
 ```
 
-## Dependencies
-
-This module depends on the following modules (automatically included with Bower install):
-
-* [px-defaults-design](https://github.com/PredixDev/px-defaults-design)
-* [px-mixins-design](https://github.com/PredixDev/px-mixins-design)
+View the full API [here](http://predixdev.github.io/px-headings-design/).
