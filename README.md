@@ -21,7 +21,7 @@ Once installed, `@import` into your project's Sass file in its Base layer:
 
 ## Usage
 
-You can change style variables to customize the design of the headings module. To change styles, set any the variables below to a new value above the module's @import statement in your project's Sass file:
+You can change style variables to customize the design of the `px-headings-design` module. To change styles, set any the variables below to a new value above the module's `@import` statement in your project's Sass file:
 
     $inuit-headings-namespace
     $inuit-heading-size-1
@@ -30,7 +30,7 @@ You can change style variables to customize the design of the headings module. T
     $inuit-heading-size-4
     $inuit-heading-size-5
 
-The headings module exposes classes that set the sizes of your heading tags. Each heading size (`<h1>...</h1>` through `<h6>...</h6>`) has corresponding class listed below. Apply the class to your heading tag and the sizing will automatically happen.
+The `px-headings-design` module exposes classes that set the sizes of your heading tags. Each heading size (`<h1>...</h1>` through `<h6>...</h6>`) has a corresponding class listed below. Apply the class to your heading tag and the sizing will automatically happen.
 
 ```
 <h4 class="epsilon">For example, here's an `h4` tag.</h4>
