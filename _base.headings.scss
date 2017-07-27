@@ -78,7 +78,7 @@ $inuit-heading-subsection-color               : var(--px-headings-heading-subsec
 /// @group px-headings-design:variables:style
 /// @type Color [default]
 /// @todo --px-headings-heading-subsection-background
-$inuit-heading-subsection-background          : var(--px-headings-heading-subsection-background, $gray2) !default;
+$inuit-heading-subsection-background          : var(--px-headings-heading-subsection-background, rgba($gray8,0.15)) !default;
 
 /// Label font color
 /// @group px-headings-design:variables:style
