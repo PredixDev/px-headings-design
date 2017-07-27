@@ -1,3 +1,7 @@
+v1.0.1
+==================
+* updated subsection background color
+
 v1.0.0
 ==================
 * updated css variables to match those defined in px-theme
