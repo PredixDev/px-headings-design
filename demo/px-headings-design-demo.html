@@ -6,7 +6,7 @@
   <link rel="import" href="../css/px-headings-design-demo-styles.html" />
 
 <!-- Demo DOM module -->
-<dom-module id="local-element-demo">
+<dom-module id="px-headings-design-demo">
   <template>
   <!-- 0: Import the styles-->
   <style include="px-headings-design-demo-styles" is="custom-style"></style>
@@ -114,7 +114,7 @@ The headings module exposes classes that set the size and/or type of your headin
 <!-- 6: Handle selectedOptions, update demo -->
 <script>
   Polymer({
-    is: 'local-element-demo',
+    is: 'px-headings-design-demo',
 
     attached : function(){
       var boundHandler = this._handleOptionsUpdated.bind(this);
