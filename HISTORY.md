@@ -1,3 +1,7 @@
+v1.0.3
+==================
+* update CI script
+
 v1.0.2
 ==================
 * runtime theming for demo
