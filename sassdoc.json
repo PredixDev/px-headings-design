@@ -2,16 +2,16 @@
     {
         "description": "Heading size 1 : 75px\n",
         "commentRange": {
-            "start": 97,
-            "end": 97
+            "start": 113,
+            "end": 113
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}alpha,\n%#{$inuit-headings-namespace}alpha",
             "value": "@include inuit-font-size($inuit-heading-size-1);\n  font-weight: normal;",
             "line": {
-                "start": 99,
-                "end": 183
+                "start": 115,
+                "end": 199
             }
         },
         "group": [
@@ -26,16 +26,16 @@
     {
         "description": "Heading size 2 : 60px\n",
         "commentRange": {
-            "start": 104,
-            "end": 104
+            "start": 120,
+            "end": 120
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}beta,\n%#{$inuit-headings-namespace}beta",
             "value": "@include inuit-font-size($inuit-heading-size-2);\n  font-weight: normal;",
             "line": {
-                "start": 106,
-                "end": 183
+                "start": 122,
+                "end": 199
             }
         },
         "group": [
@@ -50,16 +50,16 @@
     {
         "description": "Heading size 3 : 45px\n",
         "commentRange": {
-            "start": 111,
-            "end": 111
+            "start": 127,
+            "end": 127
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}gamma,\n%#{$inuit-headings-namespace}gamma",
             "value": "@include inuit-font-size($inuit-heading-size-3);\n  font-weight: normal;",
             "line": {
-                "start": 113,
-                "end": 183
+                "start": 129,
+                "end": 199
             }
         },
         "group": [
@@ -74,16 +74,16 @@
     {
         "description": "Heading size 4 : 30px\n",
         "commentRange": {
-            "start": 118,
-            "end": 118
+            "start": 134,
+            "end": 134
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}delta,\n%#{$inuit-headings-namespace}delta",
             "value": "@include inuit-font-size($inuit-heading-size-4);\n  font-weight: normal;",
             "line": {
-                "start": 120,
-                "end": 183
+                "start": 136,
+                "end": 199
             }
         },
         "group": [
@@ -98,16 +98,16 @@
     {
         "description": "Heading size 5 : 20px\n",
         "commentRange": {
-            "start": 125,
-            "end": 125
+            "start": 141,
+            "end": 141
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}epsilon,\n%#{$inuit-headings-namespace}epsilon",
             "value": "@include inuit-font-size($inuit-heading-size-5);\n  font-weight: normal;",
             "line": {
-                "start": 127,
-                "end": 183
+                "start": 143,
+                "end": 199
             }
         },
         "group": [
@@ -122,16 +122,16 @@
     {
         "description": "Heading size 6 : 12px\n",
         "commentRange": {
-            "start": 132,
-            "end": 132
+            "start": 148,
+            "end": 148
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}zeta,\n%#{$inuit-headings-namespace}zeta",
             "value": "@include inuit-font-size($inuit-heading-size-6);\n  font-weight: normal;",
             "line": {
-                "start": 134,
-                "end": 183
+                "start": 150,
+                "end": 199
             }
         },
         "group": [
@@ -146,16 +146,16 @@
     {
         "description": "Page Header\n",
         "commentRange": {
-            "start": 140,
-            "end": 140
+            "start": 156,
+            "end": 156
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--page,\n%#{$inuit-headings-namespace}heading--page",
             "value": "@include inuit-font-size($inuit-heading-size-4);\n  color: $inuit-heading-page-color;",
             "line": {
-                "start": 142,
-                "end": 183
+                "start": 158,
+                "end": 199
             }
         },
         "group": [
@@ -170,16 +170,16 @@
     {
         "description": "Section Header\n",
         "commentRange": {
-            "start": 147,
-            "end": 147
+            "start": 163,
+            "end": 163
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--section,\n%#{$inuit-headings-namespace}heading--section",
             "value": "@include inuit-font-size($inuit-heading-size-5);\n  color: $inuit-heading-section-color;\n  text-transform: uppercase;",
             "line": {
-                "start": 149,
-                "end": 183
+                "start": 165,
+                "end": 199
             }
         },
         "group": [
@@ -194,16 +194,16 @@
     {
         "description": "Sub-Section Header\n",
         "commentRange": {
-            "start": 155,
-            "end": 155
+            "start": 171,
+            "end": 171
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}heading--subsection,\n%#{$inuit-headings-namespace}heading--subsection",
             "value": "@include inuit-font-size($inuit-base-font-size);\n  color: $inuit-heading-subsection-color;\n  background-color: $inuit-heading-subsection-background;\n  text-transform: uppercase;\n  letter-spacing: $inuit-letter-spacing--caps;\n  display: flex;\n  padding-left: 5px;\n  padding-right: 5px;",
             "line": {
-                "start": 157,
-                "end": 183
+                "start": 173,
+                "end": 199
             }
         },
         "group": [
@@ -218,16 +218,16 @@
     {
         "description": "Label Header\n",
         "commentRange": {
-            "start": 168,
-            "end": 168
+            "start": 184,
+            "end": 184
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}label,\n%#{$inuit-headings-namespace}label",
             "value": "@include inuit-font-size($inuit-heading-size-6);\n  color: $inuit-heading-label-color;\n  text-transform: uppercase;\n  letter-spacing: $inuit-letter-spacing--caps;",
             "line": {
-                "start": 170,
-                "end": 183
+                "start": 186,
+                "end": 199
             }
         },
         "group": [
@@ -242,16 +242,16 @@
     {
         "description": "Value Header\n",
         "commentRange": {
-            "start": 177,
-            "end": 177
+            "start": 193,
+            "end": 193
         },
         "context": {
             "type": "css",
             "name": ".#{$inuit-headings-namespace}value,\n%#{$inuit-headings-namespace}value",
             "value": "@include inuit-font-size($inuit-base-font-size);\n  color: $inuit-heading-value-color;",
             "line": {
-                "start": 179,
-                "end": 183
+                "start": 195,
+                "end": 199
             }
         },
         "group": [
@@ -266,8 +266,8 @@
     {
         "description": "Sets a prepended namespace for all generated classes.\n",
         "commentRange": {
-            "start": 11,
-            "end": 14
+            "start": 27,
+            "end": 30
         },
         "context": {
             "type": "variable",
@@ -275,8 +275,8 @@
             "value": "$inuit-namespace",
             "scope": "default",
             "line": {
-                "start": 15,
-                "end": 15
+                "start": 31,
+                "end": 31
             }
         },
         "group": [
@@ -295,8 +295,8 @@
     {
         "description": "Sets the size for the h1 class `.alpha`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 17,
-            "end": 20
+            "start": 33,
+            "end": 36
         },
         "context": {
             "type": "variable",
@@ -304,8 +304,8 @@
             "value": "75px",
             "scope": "default",
             "line": {
-                "start": 21,
-                "end": 21
+                "start": 37,
+                "end": 37
             }
         },
         "group": [
@@ -324,8 +324,8 @@
     {
         "description": "Sets the size for the h2 class `.beta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 23,
-            "end": 26
+            "start": 39,
+            "end": 42
         },
         "context": {
             "type": "variable",
@@ -333,8 +333,8 @@
             "value": "60px",
             "scope": "default",
             "line": {
-                "start": 27,
-                "end": 27
+                "start": 43,
+                "end": 43
             }
         },
         "group": [
@@ -353,8 +353,8 @@
     {
         "description": "Sets the size for the h3 class `.gamma`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 29,
-            "end": 32
+            "start": 45,
+            "end": 48
         },
         "context": {
             "type": "variable",
@@ -362,8 +362,8 @@
             "value": "45px",
             "scope": "default",
             "line": {
-                "start": 33,
-                "end": 33
+                "start": 49,
+                "end": 49
             }
         },
         "group": [
@@ -382,8 +382,8 @@
     {
         "description": "Sets the size for the h4 class `.delta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 35,
-            "end": 38
+            "start": 51,
+            "end": 54
         },
         "context": {
             "type": "variable",
@@ -391,8 +391,8 @@
             "value": "30px",
             "scope": "default",
             "line": {
-                "start": 39,
-                "end": 39
+                "start": 55,
+                "end": 55
             }
         },
         "group": [
@@ -411,8 +411,8 @@
     {
         "description": "Sets the size for the h5 class `.epsilon`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 41,
-            "end": 44
+            "start": 57,
+            "end": 60
         },
         "context": {
             "type": "variable",
@@ -420,8 +420,8 @@
             "value": "20px",
             "scope": "default",
             "line": {
-                "start": 45,
-                "end": 45
+                "start": 61,
+                "end": 61
             }
         },
         "group": [
@@ -440,8 +440,8 @@
     {
         "description": "Sets the size for the h6 class `.zeta`. Should be a number in pixels or rems.\n",
         "commentRange": {
-            "start": 47,
-            "end": 50
+            "start": 63,
+            "end": 66
         },
         "context": {
             "type": "variable",
@@ -449,8 +449,8 @@
             "value": "12px",
             "scope": "default",
             "line": {
-                "start": 51,
-                "end": 51
+                "start": 67,
+                "end": 67
             }
         },
         "group": [
@@ -469,8 +469,8 @@
     {
         "description": "Sets letter-spacing (kerning) on all caps text\n",
         "commentRange": {
-            "start": 53,
-            "end": 56
+            "start": 69,
+            "end": 72
         },
         "context": {
             "type": "variable",
@@ -478,8 +478,8 @@
             "value": "var(--px-headings-letter-spacing, 0.3px)",
             "scope": "default",
             "line": {
-                "start": 57,
-                "end": 57
+                "start": 73,
+                "end": 73
             }
         },
         "group": [
@@ -498,8 +498,8 @@
     {
         "description": "Page heading font color\n",
         "commentRange": {
-            "start": 59,
-            "end": 62
+            "start": 75,
+            "end": 78
         },
         "context": {
             "type": "variable",
@@ -507,8 +507,8 @@
             "value": "var(--px-headings-heading-page-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 63,
-                "end": 63
+                "start": 79,
+                "end": 79
             }
         },
         "group": [
@@ -527,8 +527,8 @@
     {
         "description": "Section heading font color\n",
         "commentRange": {
-            "start": 65,
-            "end": 68
+            "start": 81,
+            "end": 84
         },
         "context": {
             "type": "variable",
@@ -536,8 +536,8 @@
             "value": "var(--px-headings-heading-section-color, $gray10)",
             "scope": "default",
             "line": {
-                "start": 69,
-                "end": 69
+                "start": 85,
+                "end": 85
             }
         },
         "group": [
@@ -556,8 +556,8 @@
     {
         "description": "Subsection heading font color\n",
         "commentRange": {
-            "start": 71,
-            "end": 74
+            "start": 87,
+            "end": 90
         },
         "context": {
             "type": "variable",
@@ -565,8 +565,8 @@
             "value": "var(--px-headings-heading-subsection-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 75,
-                "end": 75
+                "start": 91,
+                "end": 91
             }
         },
         "group": [
@@ -585,17 +585,17 @@
     {
         "description": "Subsection heading background color\n",
         "commentRange": {
-            "start": 77,
-            "end": 80
+            "start": 93,
+            "end": 96
         },
         "context": {
             "type": "variable",
             "name": "inuit-heading-subsection-background",
-            "value": "var(--px-headings-heading-subsection-background, $gray2)",
+            "value": "var(--px-headings-heading-subsection-background, rgba($gray8,0.15))",
             "scope": "default",
             "line": {
-                "start": 81,
-                "end": 81
+                "start": 97,
+                "end": 97
             }
         },
         "group": [
@@ -614,8 +614,8 @@
     {
         "description": "Label font color\n",
         "commentRange": {
-            "start": 83,
-            "end": 86
+            "start": 99,
+            "end": 102
         },
         "context": {
             "type": "variable",
@@ -623,8 +623,8 @@
             "value": "var(--px-headings-label-color, $gray10)",
             "scope": "default",
             "line": {
-                "start": 87,
-                "end": 87
+                "start": 103,
+                "end": 103
             }
         },
         "group": [
@@ -643,8 +643,8 @@
     {
         "description": "Value font color\n",
         "commentRange": {
-            "start": 89,
-            "end": 92
+            "start": 105,
+            "end": 108
         },
         "context": {
             "type": "variable",
@@ -652,8 +652,8 @@
             "value": "var(--px-headings-value-color, $gray15)",
             "scope": "default",
             "line": {
-                "start": 93,
-                "end": 93
+                "start": 109,
+                "end": 109
             }
         },
         "group": [
